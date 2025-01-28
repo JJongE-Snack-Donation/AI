@@ -110,7 +110,7 @@ def detect_objects():
             'Object_counts': object_counts
         }
         
-        #if : 참지된 객체가 없을시 , else : running result data spend
+        #if : 탐지된 객체가 없을 시 , else : running result data spend
         if len(detections.boxes.data.tolist()) == 0:
             image_result['Status'] = 'Failed'
             image_result['Reason'] = 'No objects detected'

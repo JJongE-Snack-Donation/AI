@@ -5,7 +5,6 @@ import json
 url = 'http://localhost:5000/detect'
 
 # MongoDB에 저장된 이미지의 ID 리스트
-# 실제 MongoDB에 저장된 이미지의 ID로 대체해야 합니다
 image_ids = [
     "678def6f3d9346a8a2d5302c",
     "678def6f3d9346a8a2d5302d",
